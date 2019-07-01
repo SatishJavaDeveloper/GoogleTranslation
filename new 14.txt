@@ -1,0 +1,37 @@
+
+gcloud auth application-default print-access-token
+
+
+Access Token: Bearer ya29.c.Elo4B66JHUo8ORhvQZo55Nzan6rgVPYQomHKJJdg8nCaONVF_usM6NuBZ_uhAgFUavoRGwPOxlk_Uwa07xcmykD6valdi5aqLeIqJmmwwbw43FqDBD9rLo_TJjs
+
+
+
+https://automl.googleapis.com/v1beta1/projects/satishreddy-141013/locations/us-central1/models/TRL8619019074274303616:predict
+
+
+
+
+{
+  "payload": {
+    "textSnippet": {
+      "content": "hello, this is test mail"
+    }
+  }
+}
+
+
+
+{
+    "payload": [
+        {
+            "translation": {
+                "translatedContent": {
+                    "content": "привет, это тестовая почта"
+                }
+            }
+        }
+    ]
+}
+
+
+
